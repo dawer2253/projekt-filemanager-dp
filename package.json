@@ -1,0 +1,27 @@
+{
+  "name": "ds2",
+  "version": "1.0.0",
+  "description": "Simple File Manager for school usage",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "formidable": "^1.2.2",
+    "handlebars": "^4.7.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo /\"Error: no test specified",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "simplefilemanager"
+  },
+  "keywords": [
+    "file",
+    "manager"
+  ],
+  "author": "Dawid Pątko",
+  "license": "ISC"
+}

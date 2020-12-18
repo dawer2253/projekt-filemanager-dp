@@ -1,0 +1,12 @@
+<td>{{id}}</td>
+<td><img src="{{imageExtension type}}" class="ext-image" /></td>
+<td>{{name}}</td>
+<td>{{type}}</td>
+<td>{{size}}</td>
+<td>
+    <form action="/delete/{{id}}" method="POST">
+        <button type="submit" class="link">Delete</button>
+    </form>
+</td>
+<td><a href="/info/{{id}}" class="link">Info</a></td>
+<td><a download="{{name}}" href="upload/{{generatedName}}" class="link">download</a></td>

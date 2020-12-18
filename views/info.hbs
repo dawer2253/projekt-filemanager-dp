@@ -1,0 +1,7 @@
+{{#if this.[1]}}
+{{#each this.[0]}}
+<h3>{{@key}}: {{this}}</h3>
+{{/each}}
+{{else}}
+<h3>Plik nie został wybrany. Wejdź w zakładkę "File manager" i wybierz odpowiedni plik</h3>
+{{/if}}

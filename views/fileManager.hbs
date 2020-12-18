@@ -1,0 +1,11 @@
+<table>
+    <tr>
+        {{#each this.[1]}}
+        <td class="hcolumn">{{this}}</td>
+        {{/each}}
+    </tr>
+
+    {{#each this.[0]}}
+    <tr>{{> file}}</tr>
+    {{/each}}
+</table>
